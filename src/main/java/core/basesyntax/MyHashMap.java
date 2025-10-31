@@ -65,26 +65,6 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
             this.value = value;
             this.next = next;
         }
-
-        K getKey() {
-            return key;
-        }
-
-        V getValue() {
-            return value;
-        }
-
-        void setValue(V value) {
-            this.value = value;
-        }
-
-        Node<K, V> getNext() {
-            return next;
-        }
-
-        void setNext(Node<K, V> next) {
-            this.next = next;
-        }
     }
 
     private int getIndex(K key) {
